@@ -1,8 +1,8 @@
 import React from 'react';
 import proj1 from '../assets/imhs.jpg';
-import proj2 from '../assets/doormed.jpg';
-import proj3 from '../assets/ichat.jpg';
-import proj4 from '../assets/recipe.jpg';
+import proj2 from '../assets/recipe.jpg';
+import proj3 from '../assets/doormed.jpg';
+import proj4 from '../assets/ichat.jpg';
 import { motion } from 'framer-motion';
 
 const Project = () => {

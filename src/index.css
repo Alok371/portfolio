@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&family=Major+Mono+Display&family=Nabla:EDPT,EHLT@93,18&family=Smooch+Sans:wght@100..900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -25,11 +24,4 @@ span,
 
 .bg-primary-color {
     background-image: linear-gradient(to right, #6b2b72, #a5079d);
-}
-
-.logo {
-    font-family: "Smooch Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: italic;
 }

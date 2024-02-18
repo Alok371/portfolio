@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-{/* <h1 className='text-4xl sm:text-5xl text-white text-center mb-12'>My <span>Education</span></h1> */ }
 const Education = () => {
     return (
         <div id='education' className='py-16 bg-gray-900'>

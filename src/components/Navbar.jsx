@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-scroll'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
-import { motion } from 'framer-motion';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -14,15 +13,7 @@ const Navbar = () => {
     };
     return (
         <div className='z-10 text-gray-500 flex justify-between items-center max-w-[1280px] mx-auto h-24 px-4 text-l'>
-            <motion.h1
-                className='text-3xl font-bold logo primary-color ml-4'
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.5, delay: 0.2 }}
-                whileHover={{ scale: 1.05 }}
-            >
-                Alok Khalkho
-            </motion.h1>
+            <h1 className='text-3xl font-bold primary-color ml-4'>Alok Khalkho</h1>
             <ul className='hidden md:flex'>
                 <li className='p-5 cursor-pointer'>
                     <Link to='home' spy={true}
@@ -46,14 +37,6 @@ const Navbar = () => {
                         offset={50}
                         duration={500} >
                         Projects
-                    </Link>
-                </li>
-                <li className='p-5 cursor-pointer'>
-                    <Link to="skills" spy={true}
-                        smooth={true}
-                        offset={50}
-                        duration={500} >
-                        Skills
                     </Link>
                 </li>
                 <li className='p-5 cursor-pointer'>
